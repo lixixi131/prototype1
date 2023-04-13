@@ -1,0 +1,57 @@
+#bar>#title{
+    text-align: center;
+}
+
+.connectcolor{
+    background-color: red;
+}
+
+
+#settingcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin : 5%;
+}
+
+
+
+
+.physicaladdress>span{
+    border-radius: 5px;
+    padding : 5px
+}
+
+#deletebutton{
+    float: right;
+}
+.physicaladdress{
+    text-align: left;
+}
+
+/* .addresscontainer::after{
+    content: "";
+    clear: both;
+    display: table;
+} */
+#imagecontainer{
+}
+
+.addresscontainer{
+
+}
+.physicaladdress{
+    border: solid gray 1px;
+    border-radius: 5px;
+    margin: 10px;
+    padding : 15px 5px;}
+
+
+#crudcontainer{
+    margin : 10px; 
+    text-align: center;
+}
+
+#crudcontainer > button{
+    margin : 10px;
+}
